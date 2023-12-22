@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  flex-direction: column;
+}
+.hoverEffect:hover {
+  transform: translatey(-10px);
+  transition: transform 0.8s ease-in-out;
+}

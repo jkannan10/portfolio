@@ -1,0 +1,57 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+.adjust {
+  margin-top: -30px;
+
+  width: 800px;
+}
+.column {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-left: 4px solid black;
+  z-index: 10;
+}
+.educationContent {
+  width: 700px;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-bottom: 40px;
+}
+.icon {
+  margin-left: -25px;
+  margin-right: 10px;
+  z-index: 1;
+}
+.pp {
+  margin-left: 10px;
+}
+.acc {
+  width: 450px;
+}
+.ac {
+  width: 100%;
+  height: 100px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ac:nth-child(1) {
+  background-color: rgb(108, 108, 229);
+}
+.ac:nth-child(2) {
+  background-color: rgb(108, 108, 229);
+}
+.ac:nth-child(3) {
+  background-color: rgb(108, 108, 229);
+}

@@ -1,0 +1,38 @@
+/* .wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+.flexWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+} */
+.flexWrap {
+  display: flex;
+  flex-direction: row; /* Change to row for side-by-side alignment */
+  justify-content: flex-start;
+  align-items: space-around;
+}
+
+.contactwrap {
+  display: flex; /* Set display to flex */
+  flex-direction: column; /* Align items in a column */
+  margin-left: 30px;
+}
+.contact {
+  width: 30vw;
+  height: 125px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-left: 15px;
+}
+.input {
+  width: 150px;
+  height: 50px;
+}
+.textarea {
+  height: 150px;
+}

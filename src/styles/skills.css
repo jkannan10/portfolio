@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.contentWrapper {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  overflow: hidden; /* Ensures that child elements won't overflow the container during scaling */
+  transition: transform 1s ease-in-out; /* Apply a smooth transition to the transform property */
+}
+
+.image {
+  width: 100%;
+}
+
+.contentWrapper:hover {
+  transform: scale(1.2); /* Apply a zoom-in effect on hover */
+}

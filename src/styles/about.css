@@ -1,0 +1,26 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image {
+  width: 600px;
+  height: 400px;
+}
+
+/* Use the correct class name 'content'*/
+.Aboutcontent {
+  width: 600px;
+  height: 400px;
+  margin-left: 30px;
+  padding: 20px;
+  color: white;
+}
